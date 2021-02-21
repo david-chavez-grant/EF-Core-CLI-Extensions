@@ -10,6 +10,9 @@ Same as `$ dotnet ef --startup-project ../path/project.csproj [command]`
 e.g. working directory _`/../src/InfrastructureLibrary/`_ contains AppDbContext.cs, \
 but running project is in _`/../src/WebApplication/`_
 
+**Set a path to** _`startup.csproj`_ **while inside** _`/your/work/dir/`_ **with** `$ Set-Startup-Project ../path/to/startup.csproj` \
+It sets an env var `$EFSTARTUP` that must be set each shell session.
+
 **Remember to source the .ef-core-cli-extensions in your shell startup (.bashrc .zshrc, etc.) file.**  
 e.g. `source ~/Path/To/Folder/.ef-core-cli-extensions`
 
