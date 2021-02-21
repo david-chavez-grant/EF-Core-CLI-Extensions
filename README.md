@@ -1,5 +1,5 @@
 # EF-Core-CLI-Extensions
-_The CLI commands are too long and I already have the VS2019 Package Manager Console commands memorized._ \
+_The CLI commands are too long and I already have the VS2019 Package Manager Console commands memorized._ 
 
 ### IMPORTANT:
 **"DbContext" is appended to arguments that specify a DbContext name.**  
