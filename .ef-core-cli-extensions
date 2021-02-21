@@ -1,0 +1,15 @@
+export EFSTARTUP="../Web/Api/Bylines.Web.Api.csproj"
+alias "Set-Startup-Project"=". ~/Code/Scripts/shell/EFCore/set-startup.sh"
+#Database
+alias "Drop-Database"=". ~/Code/Scripts/shell/EFCore/Database/drop.sh"
+alias "Update-Database"=". ~/Code/Scripts/shell/EFCore/Database/update.sh"
+#DbContext
+alias "GetInfo-DbContext"=". ~/Code/Scripts/shell/EFCore/DbContext/getinfo.sh"
+alias "Scaffold-DbContext"=". ~/Code/Scripts/shell/EFCore/DbContext/scaffold.sh"
+alias "Script-DbContext"=". ~/Code/Scripts/shell/EFCore/DbContext/script.sh"
+alias "List-DbContexts"="dotnet ef dbcontext list"
+#Migrations
+alias "Add-Migration"=". ~/Code/Scripts/shell/EFCore/Migrations/add.sh"
+alias "Remove-Migration"=". ~/Code/Scripts/shell/EFCore/Migrations/remove.sh"
+alias "Script-Migrations"=". ~/Code/Scripts/shell/EFCore/Migrations/script.sh"
+alias "List-Migrations"=". ~/Code/Scripts/shell/EFCore/Migrations/list.sh"
